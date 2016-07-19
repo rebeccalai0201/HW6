@@ -1,0 +1,129 @@
+body
+{
+    min-height: 1000px;
+}
+.header
+{
+    height: 100px;
+    width: 100%;
+    line-height: 100px;
+    background: deepskyblue;
+    float: left;
+    color: white;
+    font-size: 1.5em;
+    font-family: monospace;
+    text-align: center;
+}
+.navbar
+{
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    background: gold;
+    float: left;
+    color: white;
+    font-size: 1.5em;
+    font-family: monospace;
+    text-align: center;
+}
+.sidebar
+{
+    height: 400px;
+    width: 25%;
+    line-height: 400px;
+    background: blue;
+    float: left;
+    color: white;
+    font-size: 1.5em;
+    font-family: monospace;
+    text-align: center;
+}
+.main
+{
+    height: 400px;
+    width: 75%;
+    line-height: 400px;
+    background: green;
+    float: left;
+    color: white;
+    font-size: 1.5em;
+    font-family: monospace;
+    text-align: center;
+}
+.footer
+{
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    background: orange;
+    float: left;
+    color: white;
+    font-size: 1.5em;
+    font-family: monospace;
+    text-align: center;
+}
+
+.nav
+{
+    background: #fafafa;
+}
+.nav>li
+{
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-right: 0px;
+    margin-left: -5px;
+    padding: .5em 1em;
+    box-sizing: border-box;
+    width: 25%;
+    position: relative;
+    cursor: pointer;
+}
+.nav>li:hover .submenu
+{
+    display: block;
+}
+.nav>li:last-child
+{
+    border-right: 1px solid #ddd;
+}
+.submenu
+{
+    background: #eee;
+    width: 200px;
+    padding: 0px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    display: none;
+
+}
+.submenu li
+{
+    list-style-type: none;
+    cursor: pointer;
+    padding: .5em 15px;
+    color: black;
+}
+.submenu li:hover
+{
+    color: gray;
+    background: white;
+}
+
+.botton
+{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background: red;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 60px;
+    text-align: center;
+    font-size: 1.75em;
+}
